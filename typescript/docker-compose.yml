@@ -1,0 +1,12 @@
+services:
+  service:
+    image: "${SERVICE_CONTAINER_IMAGE}"
+    restart: always
+    networks:
+      - openbpt-services
+    env_file:
+      - .env
+
+networks:
+  caise-demo-services:
+    external: true

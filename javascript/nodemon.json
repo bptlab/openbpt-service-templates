@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "js",
+  "ignore": [],
+  "exec": "node ./src/main.js | npx pino-pretty",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
