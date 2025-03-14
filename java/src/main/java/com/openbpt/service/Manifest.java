@@ -30,7 +30,7 @@ public class Manifest {
     public final PayloadOutput[] output = (new PayloadOutput[]{
         new PayloadOutput.NUMBER("The modified number", "onum", ""),
         new PayloadOutput.STRING("The stripped down string", "ostr", ""),
-        new PayloadOutput.MODEL("Model", "omodel", "this will not be saved", ModelType.BPMN_PROCESS, false),});
+        new PayloadOutput.MODEL("Model", "omodel", "this will be saved", ModelType.BPMN_PROCESS, true),});
 
     @EventListener(ApplicationReadyEvent.class)
     public void onApplicationReady(ApplicationReadyEvent event) {
