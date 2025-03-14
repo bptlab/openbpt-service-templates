@@ -1,6 +1,6 @@
 # OpenBPT Service Template
 
-This Typescript template facilitates the development of services for OpenBPT, providing essential scaffolding to get started quickly.
+This Javascript template facilitates the development of services for OpenBPT, providing essential scaffolding to get started quickly.
 
 ## Setup
 
