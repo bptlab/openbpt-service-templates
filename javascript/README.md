@@ -1,4 +1,4 @@
-# OpenBPT Service Template
+# OpenBPT Service Template (JavaScript)
 
 This Javascript template facilitates the development of services for OpenBPT, providing essential scaffolding to get started quickly.
 

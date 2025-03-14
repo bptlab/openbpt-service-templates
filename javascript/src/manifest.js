@@ -6,9 +6,9 @@ const { ModelType, PayloadType, config } = OpenBPT;
 
 // TODO: Edit the manifest to match your service's requirements
 export const manifest = {
-  id: "templateService",
+  id: "openbpt-template-service-js",
   version: "1.0.0",
-  name: "Template Service",
+  name: "Template Service (JS)",
   description: "A template service for development purposes.",
   url: config.serviceUrl,
   ttl: config.heartbeatTimeout,

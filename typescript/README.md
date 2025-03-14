@@ -1,4 +1,4 @@
-# OpenBPT Service Template
+# OpenBPT Service Template (TypeScript)
 
 This Typescript template facilitates the development of services for OpenBPT, providing essential scaffolding to get started quickly.
 

@@ -2,9 +2,9 @@ import { Manifest, ModelType, PayloadType, config } from "openbpt-service-core";
 
 // TODO: Edit the manifest to match your service's requirements
 export const manifest: Manifest = {
-  id: "templateService",
+  id: "openbp-template-service-ts",
   version: "1.0.0",
-  name: "Template Service",
+  name: "Template Service (TS)",
   description: "A template service for development purposes.",
   url: config.serviceUrl,
   ttl: config.heartbeatTimeout,
