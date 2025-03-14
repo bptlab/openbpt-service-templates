@@ -1,0 +1,72 @@
+{
+  "id": "openbp-template-service-py",
+  "version": "1.0.0",
+  "name": "Template Service (Python)",
+  "description": "A template service for development purposes.",
+  "input": [
+    {
+      "id": "number",
+      "name": "Number",
+      "description": "A number",
+      "type": "NUMBER",
+      "isOptional": false
+    },
+    {
+      "id": "optionalNumber",
+      "name": "Number",
+      "description": "An optional number",
+      "type": "NUMBER",
+      "isOptional": true
+    },
+    {
+      "id": "string",
+      "name": "String",
+      "description": "A string",
+      "type": "STRING",
+      "isOptional": false
+    },
+    {
+      "id": "boolean",
+      "name": "Boolean",
+      "description": "A boolean",
+      "type": "BOOLEAN",
+      "isOptional": false
+    },
+    {
+      "id": "model",
+      "name": "Model",
+      "description": "The currently loaded model",
+      "type": "CURRENT_MODEL",
+      "modelType": "BPMN_PROCESS",
+      "isOptional": false
+    }
+  ],
+  "output": [
+    {
+      "id": "addToNumber",
+      "name": "1-Adder",
+      "description": "Returns the given number incremented by 1 (or optionally by optional number)",
+      "type": "NUMBER"
+    },
+    {
+      "id": "addExclamationMarkToString",
+      "name": "!-Adder",
+      "description": "Returns the given string with an exclamation mark at the end",
+      "type": "STRING"
+    },
+    {
+      "id": "getOppositeBoolean",
+      "name": "Opposite Boolean",
+      "description": "Returns the opposite of the given boolean",
+      "type": "BOOLEAN"
+    },
+    {
+      "id": "newModel",
+      "name": "New Model",
+      "description": "Returns a new model",
+      "type": "MODEL",
+      "modelType": "BPMN_PROCESS",
+      "saveModel": true
+    }
+  ]
+}

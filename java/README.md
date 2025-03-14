@@ -2,6 +2,8 @@
 
 This Java template provides essential scaffolding for developing services within the **OpenBPT** ecosystem.
 
+**Important notice:** The Java service template is currently only suited for development and is not ready for production yet.
+
 ## **Setup**
 
 Follow these steps to set up the environment:
